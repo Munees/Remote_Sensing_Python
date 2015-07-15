@@ -6,7 +6,7 @@ import fnmatch
 import ogr
 import subprocess
 import gdal2xyz
-
+# function to convert raster to csv
 
 def convert_raster_to_CSV(input_folder, output_folder,raster_extension='*.tif', band=1):
     files_list = os.listdir(input_folder)
